@@ -9,12 +9,14 @@
 Воронет решает ключевую проблему мультистриминга — разрозненность чатов. Вместо мониторинга нескольких окон (Twitch, YouTube, VK Play Live и др.) вы получаете **единое пространство для общения** со зрителями
 
 Основные возможности:
+
 - Объединение чатов с разных платформ в один интерфейс
 - Поддержка API для кастомной интеграции
 
-## Ключевые особенности
+## Использование API
 
-- **Мультиплатформенность**: Twitch, YouTube, VK Play Live и другие
-- **Реальное время**: мгновенная синхронизация сообщений
-- **Удобная модерация**: единые правила для всех чатов
-- **Гибкая настройка**: фильтры, ключевые слова, автоответы
+Бэкенд используется в качестве выдачи данных для авторизации (см. [PlantUML](https://editor.plantuml.com/uml/bP5DJaGX48JtdA9MhiOBc616NStMdmDqe7N8UmyIQ3HpUtc4HGT_ajasNrMgYcCHobAtrHXhySm-P7OIuWUiDUPf3Hm5j_Tu9BTmzBZ32L_KRf90LSufXy9clExWGpk-SFuCZXiy34BvHQJ98MniS2GXnQRLOLpt6Ng5zTIljEmCnUaHBddkFIRl7p5FMia7d3apBgdcVeSdeIck6cGoBzKvBkMzhjgdHT4pZM6kKhUgCst__YHTo1yWj32so_yvUb7SuArmDiT6r6tz1W00))
+
+В качетсве получения информации мы будем использовать вебхуки или вебсокеты
+
+- [Twitch](https://dev.twitch.tv/docs/chat/send-receive-messages)

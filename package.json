@@ -1,0 +1,27 @@
+{
+	"name": "voronet",
+	"description": "description",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"author": {
+    "name": "Lazy-And-Focused",
+    "email": "laf.love.command@gmail.com",
+    "url": "https://laf-team.ru"
+  },
+  "contributors": [
+    {
+      "name": "FOCKUSTY",
+      "email": "viserd.yt@gmail.com",
+      "url": "https://fockusty.netlify.app"
+    },
+		{
+			"name": "lanvalird",
+			"url": "https://lanvalird.ru/"
+		}
+  ],
+	"scripts": {},
+	"eslintConfig": {
+		"extends": "preact"
+	}
+}
